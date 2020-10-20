@@ -1,0 +1,109 @@
+body {
+    margin: 0 auto;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+header {
+    background: black;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+}
+
+input{
+    height: 45px;
+    width: 45vw;
+    align-self: center;
+}
+
+#submit {
+    width: 70px;
+    height: 45px;
+    background: rgb(255, 183, 50);
+    align-self: center;
+}
+
+#submit:hover {
+    background: orange;
+}
+
+header i {
+    align-self: center;
+    font-size: xx-large;
+}
+
+header i:hover {
+    border: solid white 1px;
+    padding: 3px;
+}
+
+header p:hover {
+    border: solid white 1px;
+    padding: 3px;
+}
+
+.breadcrumbs p a {
+    color: cornflowerblue;
+    text-decoration: none;
+}
+
+.breadcrumbs p a:hover {
+    color: brown;
+    text-decoration: underline;
+}
+
+.breadcrumbs p {
+    color: brown;
+    font-size: small;
+}
+
+h2 {
+    font-size: xx-large;
+}
+
+.order {
+    border: solid lightgray 2px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 35px;
+}
+
+h3 {
+    margin-left: 10px;
+}
+
+.reviewbutton {
+    float: right;
+    background: lightgrey;
+    padding: 5px;
+    padding-left: 75px;
+    padding-right: 75px;
+    border: solid 0.5px darkgray;
+    margin-right: 10px;
+}
+
+.reviewbutton:hover {
+    background: rgb(175, 175, 175);
+}
+
+.square {
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+    margin-left: 40px;
+}
+
+.order a {
+    position: absolute;
+    color: cornflowerblue;
+    font-size: small;
+    text-decoration: none;
+    margin-left: 200px;
+    margin-top: -150px
+}
+
+.order a:hover {
+    color: brown;
+    text-decoration: underline;
+}
