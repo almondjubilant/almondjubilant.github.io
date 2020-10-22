@@ -7,14 +7,26 @@ body {
 header {
     background: black;
     color: white;
-    display: flex;
-    justify-content: space-around;
+    height: 90px;
+}
+
+header p {
+    width: 80px;
+    margin-left: 1385px;
+    margin-top: -50px;
+}
+
+header img {
+    margin-left: 7px;
+    margin-top: 3px;
 }
 
 input{
+    position: absolute;
     height: 45px;
-    width: 45vw;
-    align-self: center;
+    width: 11in;
+    margin-left: 100px;
+    margin-top: -55px;
 }
 
 #submit {
@@ -22,6 +34,8 @@ input{
     height: 45px;
     background: rgb(255, 183, 50);
     align-self: center;
+    margin-left: 12.15in;
+    margin-top: -52.5px;
 }
 
 #submit:hover {
@@ -29,8 +43,10 @@ input{
 }
 
 header i {
-    align-self: center;
+    position: absolute;
     font-size: xx-large;
+    margin-left: 1485px;
+    margin-top: -50px;
 }
 
 header i:hover {
@@ -56,10 +72,12 @@ header p:hover {
 .breadcrumbs p {
     color: brown;
     font-size: small;
+    margin-left: 10px;
 }
 
 h2 {
     font-size: xx-large;
+    margin-left: 10px;
 }
 
 .order {
@@ -67,6 +85,7 @@ h2 {
     margin-left: 50px;
     margin-right: 50px;
     margin-bottom: 35px;
+    width: 1450px;
 }
 
 h3 {
@@ -74,8 +93,8 @@ h3 {
 }
 
 .reviewbutton {
-    float: right;
     background: lightgrey;
+    float: right;
     padding: 5px;
     padding-left: 75px;
     padding-right: 75px;
